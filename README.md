@@ -10,7 +10,7 @@ To install core and all deployers and testers:
 To install a specific deployer:
 `GO111MODULE=on go get sigs.k8s.io/kubetest2/kubetest2-DEPLOYER@latest` (DEPLOYER can be `gce`, `gke`, etc.)
 
-To install a sepcific tester:
+To install a specific tester:
 `GO111MODULE=on go get sigs.k8s.io/kubetest2/kubetest2-tester-TESTER@latest` (TESTER can be `ginkgo`, `exec`, etc.)
 
 ## Usage
